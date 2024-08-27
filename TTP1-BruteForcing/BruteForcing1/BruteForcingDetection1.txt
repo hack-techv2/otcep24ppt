@@ -1,0 +1,5 @@
+source="WinEventLog:Security" EventCode=4625 
+| stats 
+   count(eval(EventCode=4625)) AS failed_count
+   by Account_Name
+| where failed_count>6

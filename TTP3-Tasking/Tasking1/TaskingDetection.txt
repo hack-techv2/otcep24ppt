@@ -1,0 +1,1 @@
+source="WinEventLog:Microsoft-Windows-Sysmon/Operational" Image="C:\\Windows\\system32\\schtasks.exe"

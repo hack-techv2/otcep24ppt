@@ -1,0 +1,1 @@
+schtasks /create /sc once /tn BasicTask /tr calc.exe /st 23:59
